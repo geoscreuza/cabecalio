@@ -12,3 +12,7 @@
         font-size: 0.5em;
     }
 }
+.cabecalho {
+    +  background-color: #2D5377;
+    +  color: #fff;
+    +}
