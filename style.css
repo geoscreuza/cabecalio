@@ -70,4 +70,5 @@ footer {
     padding: 10px;
     display: block;
     unicode-bidi: isolate;
+    position: fixed;
 }
