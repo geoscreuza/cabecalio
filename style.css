@@ -36,23 +36,7 @@ nav li a:hover{
 .dropdown-menu a{
     display: block;
     color: black;
-    font-weight: 500;
-    padding: 10px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
+    
 }
 
 .dropdown:hover .dropdown-menu{
