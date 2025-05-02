@@ -42,12 +42,13 @@ nav li a:hover{
 
 .content {
     margin-top: 50px;
-    padding: 20px;
+    padding: 125px;
 }
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 div {
