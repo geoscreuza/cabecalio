@@ -2,35 +2,23 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Navbar Animação em Bolha</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
   </head>
-
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="/">Tiger Codes</a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="logo">🐅</a>
+        <button class="hamburger"></button>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <nav class="menu-disciplinas" id="menuDisciplinas" style="display: block;">
-            <a href="#" onclick="mudarDisciplina('Matemática')">Matemática</a>
-            <a href="#" onclick="mudarDisciplina('Física')">Física</a>
-            <a href="#" onclick="mudarDisciplina('Química')">Química</a>
-          </nav>
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Projetos</a></li>
           <li><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <script src="mobile-navbar.js"></script>
+    <main class="hero"></main>
   </body>
 </html>
