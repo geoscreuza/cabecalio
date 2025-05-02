@@ -68,4 +68,6 @@ footer {
     color: white;
     width: 100%;
     padding: 10px;
+    display: block;
+    unicode-bidi: isolate;
 }
