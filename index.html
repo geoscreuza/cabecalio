@@ -54,5 +54,28 @@
         <h2 id="disciplina">Matemática</h2>
         <div id="conteudo"><p>Bem-vindo à disciplina de Matemática.</p></div>
       </div>
+      
+      <script>
+      function mudarDisciplina(nome) {
+        document.getElementById("disciplina").innerText = nome;
+        document.getElementById("conteudo").innerHTML = `<p>Bem-vindo ao conteúdo de ${nome}.</p>`;
+    }
+
+    function mostrarConteudo(tipo) {
+        let conteudo = document.getElementById("conteudo");
+        if (tipo === "atividades") {
+            conteudo.innerHTML = "<p>Aqui estão as atividades.</p>";
+        } else if (tipo === "provas") {
+            conteudo.innerHTML = "<p>Aqui estão as provas.</p>";
+        } else if (tipo === "projetos") {
+            conteudo.innerHTML = "<p>Aqui estão os projetos.</p>";
+        }
+    }
+
+    function toggleMenu() {
+        let menu = document.getElementById("menuDisciplinas");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+</script>
 </body>
 </html>
