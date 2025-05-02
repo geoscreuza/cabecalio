@@ -34,6 +34,17 @@
     height: 92vh;
   }
   
+  .menu-disciplinas {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
   .nav-list {
     list-style: none;
     display: flex;
