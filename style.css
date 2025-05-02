@@ -55,3 +55,8 @@ div {
     display: block;
     unicode-bidi: isolate;
 }
+
+body{
+    background-color: darkgrey;
+    text-align: center;
+}
