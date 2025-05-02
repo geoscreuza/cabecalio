@@ -29,10 +29,7 @@ nav li a:hover{
     display: none;
     
 }
-.menu-disciplinas a {
-    display: block;
-    color: white;
-    
+
 .dropdown-menu a{
     display: block;
     color: black;
