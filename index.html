@@ -21,7 +21,7 @@
                 </div>
             </li>
             <li class="dropdown">
-                <a href="">Atividades</a>
+                <a href="#" onclick="mostrarConteudo('atividades')">Atividades</a>
 
                 <div class="dropdown-menu">
                     <a href="#" onclick="mudarDisciplina('Matemática')">Matemática</a>
@@ -58,7 +58,7 @@
       <script>
       function mudarDisciplina(nome) {
         document.getElementById("disciplina").innerText = nome;
-        document.getElementById("conteudo").innerHTML = `<p>Bem-vindo ao conteúdo de ${nome}.</p>`;
+        document.getElementById("conteudo").innerHTML = `<p>Bem-vindo à disciplina de ${nome}.</p>`;
     }
 
     function mostrarConteudo(tipo) {
