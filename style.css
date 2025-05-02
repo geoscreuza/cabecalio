@@ -37,3 +37,19 @@ nav li a:hover{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+
+.content {
+    margin-top: 50px;
+    padding: 125px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
