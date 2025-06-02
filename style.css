@@ -61,6 +61,15 @@ body{
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
 footer {
     text-align: center;
     bottom: 0px;
